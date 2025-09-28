@@ -1,0 +1,16 @@
+You are an expert at extracting menu data from images of restaurant or cafe menus. Analyze the uploaded image and extract all items, categories, prices, and descriptions. Format the output exactly as a list of lines in this structure:
+
+Plate, [Category], [Item Name], [Price], [Description if available, otherwise leave blank].
+
+Rules to follow strictly:
+- Identify main categories from the image (e.g., Salad, Soup, Starters, Baan Thai Special Seafood, Rice, Curry, Stir-Fried Dish, Noodles, Dessert, Hot Beverages, Cold Beverages, Morning Breakfast, Snacks, Donut, Cup Cake, Pastry, Desserts).
+- For each item, use the full name as shown, but standardize where needed (e.g., use "Yam" prefix for salad items like Yam Som Tam, Yam Talay).
+- If an item has options separated by '/' (e.g., Koong/Kai/Pak), split them into separate entries with the specific option in the item name (e.g., Tom Yum Koong, Tom Yum Kai, Tom Yum Pak) and assign the corresponding price from the list (e.g., 850/725/575 becomes 850 for Koong, 725 for Kai, 575 for Pak).
+- For variations like Full/Half or Big/Small, split into separate items (e.g., Kai Yang Full, Kai Yang Half).
+- For beverages with Single/Double, treat them as separate items (e.g., Americano, Americano Double).
+- If no description is in the image, leave the description field blank.
+- Keep prices as numbers without currency symbols (e.g., 525, not Rs.525).
+- Do not add extra text or explanations; output only the formatted list.
+- If the image has multiple sections, cover all of them in sequence.
+
+Extract from the uploaded image now.

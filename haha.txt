@@ -1,0 +1,42 @@
+Glass, Hot coffee, Espresso, 100
+Glass, Hot coffee, Double Espresso, 150
+Glass, Hot coffee, Americano S, 100
+Glass, Hot coffee, Americano D, 120
+Glass, Hot coffee, Cappuccino, 180
+Glass, Hot coffee, CAFE Latte, 200
+Glass, Hot coffee, CAFE Mocha, 250
+Glass, Hot coffee, Macchiato, 200
+Glass, Hot coffee, Flat White, 200
+Glass, Cold coffee, Ice Americano, 150
+Glass, Cold coffee, Ice Cappuccino, 200
+Glass, Cold coffee, Ice Mocha, 220
+Glass, Cold coffee, Ice Latte, 200
+Glass, Cold coffee, Ice Macchiato, 200
+Glass, Cold coffee, Cold Horlicks, 150
+Glass, Fresh juice, Seasonal Lassi, 200
+Glass, Fresh juice, Seasonal Juice, 200
+Glass, Fresh juice, Mixed Juice, 250
+Glass, Fresh juice, Watermelon Juice, 220
+Glass, Fresh juice, ABC Juice, 220
+Glass, Fresh juice, Papaya Juice, 220
+Cup, Tea, The Vibes Special Milk Tea G, 40
+Cup, Tea, The Vibes Special Milk Tea Kettle, 200
+Cup, Tea, Lemon Tea, 35
+Cup, Tea, Black Tea, 30
+Cup, Tea, Jasmine, 55
+Cup, Tea, Green Tea G, 50
+Cup, Tea, Green Tea Pot, 150
+Cup, Tea, Mint Tea, 45
+Cup, Tea, Hot Lemon with Honey, 150
+Glass, Non-coffee, Hot Chocolate, 250
+Glass, Non-coffee, Milkshake, 250
+Glass, Non-coffee, Smoothie, 250
+Glass, Non-coffee, Ice Blended Lemonade, 250
+Glass, Non-coffee, Lemon Soda, 120
+Glass, Non-coffee, Seasonal Smoothie, 250
+Glass, Non-coffee, Peach ice Tea, 250
+Glass, Non-coffee, Oreo Shake, 220
+Glass, Non-coffee, Kitkat Shake, 220
+Piece, Cigarette, Shikhar Ice, 25
+Piece, Cigarette, Surya Luxury Kings, 30
+Piece, Cigarette, Surya Blue, 30

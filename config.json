@@ -1,0 +1,12 @@
+{
+  "browser": "brave",
+  "browser_path": "/usr/bin/brave-browser",
+  "login_url": "https://waitermoduleapp.danfesolution.com/login",
+  "menu_create_url": "https://waitermoduleapp.danfesolution.com/menu-item/create",
+  "category_create_url": "https://waitermoduleapp.danfesolution.com/category/create",
+  "email": "info@thevibes.com",
+  "password": "Admin@123#",
+  "wait_time": 3,
+  "menu_list": "menu_list.txt",
+  "category_list": "category_list.txt"
+}
