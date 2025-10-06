@@ -4,7 +4,7 @@
 
 1. **Clone the Repository**
    ```bash
-   git clone git@github.com:sauravdhoju/Automation_Waiter.git
+   git clone https://github.com/sauravdhoju/Automation_Waiter.git   
    cd Automation_Waiter
    ```
 
