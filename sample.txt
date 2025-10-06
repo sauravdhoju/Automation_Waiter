@@ -1,5 +1,3 @@
-# Automation_Waiter
-
 ## Data Format Guide
 
 ### Category Sample
@@ -17,6 +15,5 @@
 - Description can be **left blank**.
 
 **Examples:**
-
-`Piece, Beverages, Coffee, 120, Freshly brewed with milk and sugar`  
-`Piece, Beverages, Coffee, 120,`
+Piece, Beverages, Coffee, 120, Freshly brewed with milk and sugar
+Piece, Beverages, Coffee, 120,
