@@ -4,7 +4,7 @@
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/sauravdhoju/Automation_Waiter.git   
+   git clone git@github.com:sauravdhoju/Automation_Waiter.git
    cd Automation_Waiter
    ```
 
@@ -12,9 +12,13 @@
    ```bash
    python -m venv env
    source env/bin/activate   # For Linux/Mac
-   # OR
+   ```
+
+    ```bash
+   python -m venv env
    env\Scripts\activate      # For Windows
    ```
+
 
 3. **Install Requirements**
    ```bash
