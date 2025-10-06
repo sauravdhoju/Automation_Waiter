@@ -29,7 +29,7 @@ with sync_playwright() as p:
     # --- Create category function ---
     def create_category(item, wait_time=5):
         page.goto(category_url)
-        page.wait_for_load_state("networkidle")  # wait for page fully loaded
+        page.wait_for_load_state("networkidle")  # Wait until page is fully loaded
 
         # Enter Category Name
         page.fill("input[name='name']", item['category_name'])
@@ -66,16 +66,23 @@ with sync_playwright() as p:
         parts = [x.strip() for x in line.split(",")]
         item = {
             "category_name": parts[0],
-            "category": parts[1]   # your create_category function uses item["category"]
+            "category": parts[1]   # used for cost center
         }
-
 
         try:
             create_category(item, wait_time)
             success += 1
+
+            # --- Print detailed info ---
+            print(f"[Line {idx}] Created Category:")
+            print(f"   Category Name : {item['category_name']}")
+            print(f"   Cost Center   : {item['category']}")
+            print("-" * 50)
+
         except Exception as e:
             fail += 1
             print(f"[Line {idx}] Failed to create category '{item['category_name']}' - Error: {e}")
+            print("-" * 50)
 
     # --- Summary ---
     print("\nSummary:")

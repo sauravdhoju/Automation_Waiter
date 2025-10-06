@@ -1,1 +1,1 @@
-Papri, BarPrinter1
+SH, BarPrinter1

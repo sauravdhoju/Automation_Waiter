@@ -1,6 +1,5 @@
 import json
 import time
-
 from playwright.sync_api import sync_playwright
 
 # --- Load configuration ---
@@ -26,6 +25,7 @@ with sync_playwright() as p:
         page.click("button:has-text('Sign In')")
         page.wait_for_url("**/dashboard")
         print("Logged in successfully.")
+        print("=" * 60)
 
     # --- Function to create menu item ---
     def create_menu_item(item, wait_time=5):
@@ -86,14 +86,27 @@ with sync_playwright() as p:
         try:
             create_menu_item(item, wait_time)
             success_count += 1
-            print(f"[Line {idx}] Created Menu Item: {item}")
+
+            # --- Detailed formatted print ---
+            print(f"[Line {idx}] Created Menu Item:")
+            print(f"   Unit        : {item['unit']}")
+            print(f"   Category    : {item['category']}")
+            print(f"   Name        : {item['name']}")
+            print(f"   Price       : {item['price']}")
+            print(f"   Description : {item['description'] if item['description'] else '-'}")
+            print("-" * 60)
+
         except Exception as e:
             fail_count += 1
-            print(f"[Line {idx}] Failed to create item: {item['name']} - Error: {e}")
+            print(f"[Line {idx}] ❌ Failed to create item: {item['name']} - Error: {e}")
+            print("-" * 60)
 
+    # --- Summary ---
     print("\nSummary:")
+    print("=" * 60)
     print(f"Total Items  : {total_items}")
     print(f"Created      : {success_count}")
     print(f"Failed       : {fail_count}")
+    print("=" * 60)
 
     browser.close()
