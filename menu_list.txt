@@ -1,1 +1,0 @@
-Plate,Burger,Samosa, 150

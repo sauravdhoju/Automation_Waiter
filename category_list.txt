@@ -1,1 +1,26 @@
-SH, BarPrinter1
+Coffee, KitchenPrinter1
+Cold Coffee, KitchenPrinter1
+My Tea, KitchenPrinter1
+Lassi, KitchenPrinter1
+Iced Tea, KitchenPrinter1
+Shake Me Up, KitchenPrinter1
+Others, KitchenPrinter1
+Soft Drinks, BarPrinter1
+Mocktails, BarPrinter1
+Break Fast, KitchenPrinter1
+Chowmein/Thukpa, KitchenPrinter1
+Fry Rice, KitchenPrinter1
+Momo, KitchenPrinter1
+Sunrise Special, KitchenPrinter1
+Soup, KitchenPrinter1
+Salad, KitchenPrinter1
+Pasta, KitchenPrinter1
+Veg Snacks, KitchenPrinter1
+Non Veg Snacks, KitchenPrinter1
+Nepali Cuisine, KitchenPrinter1
+Western Mains, KitchenPrinter1
+Burger/Sandwich/Wrap, KitchenPrinter1
+Imported Whisky, BarPrinter1
+Domestic Whisky, BarPrinter1
+Beer, BarPrinter1
+Hookah, BarPrinter1
