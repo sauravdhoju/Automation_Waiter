@@ -124,11 +124,11 @@ with sync_playwright() as p:
             if success:
                 success_count += 1
                 print(f"[{idx}] ✅ Successfully created menu item:")
-                print(f"   🏷️  Name        : {item['name']}")
-                print(f"   📂 Category    : {item['category']}")
-                print(f"   ⚖️  Unit        : {item['unit']}")
-                print(f"   💰 Price       : {item['price']}")
-                print(f"   📝 Description : {item['description'] if item['description'] else '-'}")
+                print(f"   🏷️  Name         : {item['name']}")
+                print(f"   📂  Category     : {item['category']}")
+                print(f"   ⚖️  Unit         : {item['unit']}")
+                print(f"   💰  Price        : {item['price']}")
+                print(f"   📝  Description  : {item['description'] if item['description'] else '-'}")
                 print("-" * 60)
             else:
                 fail_count += 1
